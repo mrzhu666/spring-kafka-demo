@@ -19,8 +19,4 @@ public class KafkaConfig {
             .build();
     }
     
-    @KafkaListener(id = "myId", topics = TOPIC_1)
-    public void listen(String in) {
-        System.out.println(in);
-    }
 }
